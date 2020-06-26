@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS :: Nav</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- Navigation Setion -->
+
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <i class="fas fa-carrot"></i>
+        <a href="#">Carrot Field</a>
+      </div>
+
+      <ul class="navbar__menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Weddings</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Bookings</a></li>
+      </ul>
+
+      <ul class="navbar__icons">
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-instagram-square"></i></li>
+      </ul>
+
+      <a href="#" class="navbar__toggleBtn">
+        <i class="fas fa-hamburger"></i>
+      </a>
+    </nav>
+
+    <!-- Main Section -->
+
+    <main class="main__container">
+      <div class="main__sayHello">
+        <span class="span1">Hello!&nbsp;</span>
+        <span class="span2">My Name is</span>
+      </div>
+      <div class="main__name">
+        <span class="last-name">JEONG</span>
+        <span class="first-name">BYOUNGHOON</span>
+      </div>
+      <div class="main__position">
+        <span class="position">Front-end Developer</span>
+      </div>
+      <div class="main__desc">
+        <span class="desc">JS 기반 full-stack 개발을 지향합니다.</span>
+      </div>
+    </main>
+
+    <section class="section__about">
+      <div class="section__1">
+        <div class="section__image">
+          <img src="./img/IMG_1953.jpg" alt="carrot" />
+        </div>
+
+        <div class="section__profile">
+          <div class="section__title">
+            <div class="title1">ABOUT ME</div>
+            <div class="title2">Who am I?</div>
+          </div>
+
+          <div class="section__summary">
+            Front-end 개발자의 가장 중요한 덕목 중 하나는 소통능력 이라고
+            생각합니다. 팀 내부에서 부터 B2B - B2C에 이르기까지 다양한
+            접점에서의 요구사항을 사용자에게 전달해야 할 책임이 있기 때문입니다.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="social">
+      <h1 class="social__title">What Can I do?</h1>
+
+      <div class="social-media">
+        <a href="#">
+          <i class="fab fa-html5"></i>
+          <span>HTML5</span>
+        </a>
+        <a href="#">
+          <i class="fab fa-css3-alt"></i>
+          <span>CSS3</span>
+        </a>
+        <a href="#">
+          <i class="fab fa-js-square"></i>
+          <span>JavaScript</span>
+        </a>
+        <a href="#">
+          <i class="fab fa-react"></i>
+          <span>React.js</span>
+        </a>
+        <a href="#">
+          <i class="fab fa-github"></i>
+          <span>github</span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
